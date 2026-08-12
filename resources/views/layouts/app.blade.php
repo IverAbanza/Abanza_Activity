@@ -1,11 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>@yield('title', 'My Website')</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 40px;
+        }
+
+        nav a {
+            margin-right: 15px;
+        }
+    </style>
 </head>
 
 <body>
@@ -13,7 +20,7 @@
     <h1>My Website</h1>
 
     <nav>
-        <a href="{{ url('/') }}">Home</a> |
+        <a href="{{ url('/') }}">Home</a>
         <a href="{{ url('/contact') }}">Contact</a>
     </nav>
 
@@ -26,5 +33,4 @@
     <p>© 2026 My Website</p>
 
 </body>
-
 </html>
