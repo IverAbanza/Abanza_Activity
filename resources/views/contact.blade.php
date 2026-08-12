@@ -6,12 +6,12 @@
 
     <h2>Contact Us</h2>
 
-    <p>Welcome to our contact page.</p>
+    <x-card title="Contact Information">
 
-    <p>Email: iverabanza0413@gmail.com</p>
+        Email: iverabanza0413@gmail.com<br>
+        Phone: 0915-640-9569<br>
+        Address: Lucena City, Philippines
 
-    <p>Phone: 0915-640-9569</p>
-
-    <p>Address: Lucena City, Philippines</p>
+    </x-card>
 
 @endsection
