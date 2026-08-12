@@ -4,10 +4,25 @@
 
 @section('content')
 
-    <h2>Welcome to My Website</h2>
+<h2>Welcome to My Website</h2>
 
-    <p>This is the home page.</p>
+<x-card>
 
-    <p>Welcome to our Laravel Activity 1 project.</p>
+    <h3>Product Management System</h3>
+
+    <p>
+        This website demonstrates Laravel CRUD operations.
+    </p>
+
+    <br>
+
+    <a
+        href="{{ route('products.index') }}"
+        class="button"
+    >
+        View Products
+    </a>
+
+</x-card>
 
 @endsection
